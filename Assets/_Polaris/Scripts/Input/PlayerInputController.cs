@@ -2,17 +2,16 @@
 
 namespace Polaris.Input
 {
-    // TODO: is this better called PlayerInputController?
-    public class InputController : MonoBehaviour
+    public class PlayerInputController : MonoBehaviour
     {
         [SerializeField] private InputReader inputReader;
         [SerializeField] private float inputHoldTime = 0.2f;
-        
 
         public Vector2 MoveDirection { get; private set; }
         public bool Jump { get; private set; }
         
         private float _jumpInputStartTime;
+        private Vector2 _inputVector;
 
         private void ClearJumpInput()
         {
@@ -35,10 +34,13 @@ namespace Polaris.Input
 
         private void OnMove(Vector2 inputDirection)
         {
-            inputDirection.x = Mathf.RoundToInt(inputDirection.x);
-            inputDirection.y = Mathf.RoundToInt(inputDirection.y);
+            var directionX = (int)(inputDirection * Vector2.right).normalized.x;
+            var directionY = (int)(inputDirection * Vector2.up).normalized.y;
+
+            _inputVector.x = directionX;
+            _inputVector.y = directionY;
             
-            MoveDirection = inputDirection;
+            MoveDirection = _inputVector;
         }
         
         private void OnEnable()

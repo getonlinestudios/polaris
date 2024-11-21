@@ -33,7 +33,6 @@ namespace Polaris.Input
 
         public void OnMovement(InputAction.CallbackContext context)
         {
-            Debug.Log(context.ReadValue<Vector2>());
             MoveEvent.Invoke(context.ReadValue<Vector2>());
         }
 
