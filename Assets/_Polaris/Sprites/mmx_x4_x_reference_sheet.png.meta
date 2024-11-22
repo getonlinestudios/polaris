@@ -1,0 +1,5667 @@
+fileFormatVersion: 2
+guid: d180c6ba3c27f472f9459aa69adc2a36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8173163805263850042
+    second: mmx_x4_x_reference_sheet_0
+  - first:
+      213: -2660202903744919752
+    second: mmx_x4_x_reference_sheet_1
+  - first:
+      213: 1939343166641970463
+    second: mmx_x4_x_reference_sheet_2
+  - first:
+      213: 7365269680846951640
+    second: mmx_x4_x_reference_sheet_3
+  - first:
+      213: 5213282250711019800
+    second: mmx_x4_x_reference_sheet_4
+  - first:
+      213: -3722121231763027736
+    second: mmx_x4_x_reference_sheet_5
+  - first:
+      213: -7387426530421246732
+    second: mmx_x4_x_reference_sheet_6
+  - first:
+      213: -6562832016153051459
+    second: mmx_x4_x_reference_sheet_7
+  - first:
+      213: -2235244852392437386
+    second: mmx_x4_x_reference_sheet_8
+  - first:
+      213: 6737557333448229831
+    second: mmx_x4_x_reference_sheet_9
+  - first:
+      213: 425553865958346892
+    second: mmx_x4_x_reference_sheet_10
+  - first:
+      213: -8106613164956458898
+    second: mmx_x4_x_reference_sheet_11
+  - first:
+      213: 7307804563385208784
+    second: mmx_x4_x_reference_sheet_12
+  - first:
+      213: 8237994123566630898
+    second: mmx_x4_x_reference_sheet_13
+  - first:
+      213: -1123196842369523135
+    second: mmx_x4_x_reference_sheet_14
+  - first:
+      213: -4010436720850892432
+    second: mmx_x4_x_reference_sheet_15
+  - first:
+      213: -94508861482236639
+    second: mmx_x4_x_reference_sheet_16
+  - first:
+      213: 8890537932163840881
+    second: mmx_x4_x_reference_sheet_17
+  - first:
+      213: -6547058973048607091
+    second: mmx_x4_x_reference_sheet_18
+  - first:
+      213: -712222092286722484
+    second: mmx_x4_x_reference_sheet_19
+  - first:
+      213: 2889352908850943308
+    second: mmx_x4_x_reference_sheet_20
+  - first:
+      213: -8160068126193616030
+    second: mmx_x4_x_reference_sheet_21
+  - first:
+      213: 3458835777551763938
+    second: mmx_x4_x_reference_sheet_22
+  - first:
+      213: -176905027169804462
+    second: mmx_x4_x_reference_sheet_23
+  - first:
+      213: -7670876691900721837
+    second: mmx_x4_x_reference_sheet_24
+  - first:
+      213: -3221719073647282078
+    second: mmx_x4_x_reference_sheet_25
+  - first:
+      213: -4162438566469990386
+    second: mmx_x4_x_reference_sheet_26
+  - first:
+      213: 6325484458482987972
+    second: mmx_x4_x_reference_sheet_27
+  - first:
+      213: -7838229092061815387
+    second: mmx_x4_x_reference_sheet_28
+  - first:
+      213: -2825387626914328955
+    second: mmx_x4_x_reference_sheet_29
+  - first:
+      213: -7287855795471410440
+    second: mmx_x4_x_reference_sheet_30
+  - first:
+      213: 1703488909605254459
+    second: mmx_x4_x_reference_sheet_31
+  - first:
+      213: -386998834619370087
+    second: mmx_x4_x_reference_sheet_32
+  - first:
+      213: 6364791970930271686
+    second: mmx_x4_x_reference_sheet_33
+  - first:
+      213: -133703139997830429
+    second: mmx_x4_x_reference_sheet_34
+  - first:
+      213: 6072712984666859303
+    second: mmx_x4_x_reference_sheet_35
+  - first:
+      213: -3375142498077792416
+    second: mmx_x4_x_reference_sheet_36
+  - first:
+      213: -8760991306337472277
+    second: mmx_x4_x_reference_sheet_37
+  - first:
+      213: 2073822061384944332
+    second: mmx_x4_x_reference_sheet_38
+  - first:
+      213: -6399924933912681799
+    second: mmx_x4_x_reference_sheet_39
+  - first:
+      213: -3389863258943088549
+    second: mmx_x4_x_reference_sheet_40
+  - first:
+      213: 6086156152806083854
+    second: mmx_x4_x_reference_sheet_41
+  - first:
+      213: 3704195148824147171
+    second: mmx_x4_x_reference_sheet_42
+  - first:
+      213: 4250986854262787932
+    second: mmx_x4_x_reference_sheet_43
+  - first:
+      213: -2198394199738204788
+    second: mmx_x4_x_reference_sheet_44
+  - first:
+      213: 2478697176592789968
+    second: mmx_x4_x_reference_sheet_45
+  - first:
+      213: -6491178696251328062
+    second: mmx_x4_x_reference_sheet_46
+  - first:
+      213: -8337205313084027737
+    second: mmx_x4_x_reference_sheet_47
+  - first:
+      213: -7855031288760817410
+    second: mmx_x4_x_reference_sheet_48
+  - first:
+      213: -6822574207615999737
+    second: mmx_x4_x_reference_sheet_49
+  - first:
+      213: 8633244816683623918
+    second: mmx_x4_x_reference_sheet_50
+  - first:
+      213: -4016150246164805431
+    second: mmx_x4_x_reference_sheet_51
+  - first:
+      213: 5607748705497987975
+    second: mmx_x4_x_reference_sheet_52
+  - first:
+      213: -492624987102919087
+    second: mmx_x4_x_reference_sheet_53
+  - first:
+      213: 7883044000462007728
+    second: mmx_x4_x_reference_sheet_54
+  - first:
+      213: 502733513611716640
+    second: mmx_x4_x_reference_sheet_55
+  - first:
+      213: 7799842552071998207
+    second: mmx_x4_x_reference_sheet_56
+  - first:
+      213: 1162598802590786137
+    second: mmx_x4_x_reference_sheet_57
+  - first:
+      213: -3342021972048247587
+    second: mmx_x4_x_reference_sheet_58
+  - first:
+      213: 167551184093623890
+    second: mmx_x4_x_reference_sheet_59
+  - first:
+      213: 801189685953000301
+    second: mmx_x4_x_reference_sheet_60
+  - first:
+      213: 844045228278784140
+    second: mmx_x4_x_reference_sheet_61
+  - first:
+      213: -8207836095345123668
+    second: mmx_x4_x_reference_sheet_62
+  - first:
+      213: 1961400883850307267
+    second: mmx_x4_x_reference_sheet_63
+  - first:
+      213: 5026569801989622553
+    second: mmx_x4_x_reference_sheet_64
+  - first:
+      213: 2839578257815084288
+    second: mmx_x4_x_reference_sheet_65
+  - first:
+      213: 5634017365722438081
+    second: mmx_x4_x_reference_sheet_66
+  - first:
+      213: 2548988041979877074
+    second: mmx_x4_x_reference_sheet_67
+  - first:
+      213: -4539182116951308537
+    second: mmx_x4_x_reference_sheet_68
+  - first:
+      213: -825541555695019017
+    second: mmx_x4_x_reference_sheet_69
+  - first:
+      213: -1144157414098450052
+    second: mmx_x4_x_reference_sheet_70
+  - first:
+      213: -8155405351670258314
+    second: mmx_x4_x_reference_sheet_71
+  - first:
+      213: -1228368811561478453
+    second: mmx_x4_x_reference_sheet_72
+  - first:
+      213: -6858155724606704981
+    second: mmx_x4_x_reference_sheet_73
+  - first:
+      213: -4113824115277438254
+    second: mmx_x4_x_reference_sheet_74
+  - first:
+      213: -5726224348422230238
+    second: mmx_x4_x_reference_sheet_75
+  - first:
+      213: -7758351418931856091
+    second: mmx_x4_x_reference_sheet_76
+  - first:
+      213: -6150516863283544126
+    second: mmx_x4_x_reference_sheet_77
+  - first:
+      213: 6713134107101878541
+    second: mmx_x4_x_reference_sheet_78
+  - first:
+      213: 2849197968596057356
+    second: mmx_x4_x_reference_sheet_79
+  - first:
+      213: 3392984990784254340
+    second: mmx_x4_x_reference_sheet_80
+  - first:
+      213: -2577599847870983337
+    second: mmx_x4_x_reference_sheet_81
+  - first:
+      213: 5091965181909207900
+    second: mmx_x4_x_reference_sheet_82
+  - first:
+      213: -64966414475636297
+    second: mmx_x4_x_reference_sheet_83
+  - first:
+      213: -7862963768631682841
+    second: mmx_x4_x_reference_sheet_84
+  - first:
+      213: -8668344238391595568
+    second: mmx_x4_x_reference_sheet_85
+  - first:
+      213: -1019194739711646051
+    second: mmx_x4_x_reference_sheet_86
+  - first:
+      213: -5150699993491240079
+    second: mmx_x4_x_reference_sheet_87
+  - first:
+      213: -1701953318845594966
+    second: mmx_x4_x_reference_sheet_88
+  - first:
+      213: -6687055411626142383
+    second: mmx_x4_x_reference_sheet_89
+  - first:
+      213: 8403265888827729527
+    second: mmx_x4_x_reference_sheet_90
+  - first:
+      213: 7299963118522240887
+    second: mmx_x4_x_reference_sheet_91
+  - first:
+      213: 784533284409092261
+    second: mmx_x4_x_reference_sheet_92
+  - first:
+      213: 3551508695538573474
+    second: mmx_x4_x_reference_sheet_93
+  - first:
+      213: -6351219137768369816
+    second: mmx_x4_x_reference_sheet_94
+  - first:
+      213: -3020652437928356069
+    second: mmx_x4_x_reference_sheet_95
+  - first:
+      213: -8035301980767283955
+    second: mmx_x4_x_reference_sheet_96
+  - first:
+      213: -7946626689882715096
+    second: mmx_x4_x_reference_sheet_97
+  - first:
+      213: -1048224774415223060
+    second: mmx_x4_x_reference_sheet_98
+  - first:
+      213: 4966087199238977683
+    second: mmx_x4_x_reference_sheet_99
+  - first:
+      213: 706932029970048393
+    second: mmx_x4_x_reference_sheet_100
+  - first:
+      213: -1561370308751018515
+    second: mmx_x4_x_reference_sheet_101
+  - first:
+      213: -1168066266269074466
+    second: mmx_x4_x_reference_sheet_102
+  - first:
+      213: -839725110516521436
+    second: mmx_x4_x_reference_sheet_103
+  - first:
+      213: 8172717717278878218
+    second: mmx_x4_x_reference_sheet_104
+  - first:
+      213: -674668332486234091
+    second: mmx_x4_x_reference_sheet_105
+  - first:
+      213: -1147599930957797666
+    second: mmx_x4_x_reference_sheet_106
+  - first:
+      213: 4333465483051431034
+    second: mmx_x4_x_reference_sheet_107
+  - first:
+      213: 8439503359935062032
+    second: mmx_x4_x_reference_sheet_108
+  - first:
+      213: 493765772053101532
+    second: mmx_x4_x_reference_sheet_109
+  - first:
+      213: 5066301180166499155
+    second: mmx_x4_x_reference_sheet_110
+  - first:
+      213: 7717507271849587982
+    second: mmx_x4_x_reference_sheet_111
+  - first:
+      213: 992289019619172161
+    second: mmx_x4_x_reference_sheet_112
+  - first:
+      213: -521079343233520409
+    second: mmx_x4_x_reference_sheet_113
+  - first:
+      213: 7433933719416491017
+    second: mmx_x4_x_reference_sheet_114
+  - first:
+      213: 2757360666740083172
+    second: mmx_x4_x_reference_sheet_115
+  - first:
+      213: 6663630385298941757
+    second: mmx_x4_x_reference_sheet_116
+  - first:
+      213: -7699751558377913287
+    second: mmx_x4_x_reference_sheet_117
+  - first:
+      213: -9117224763941361626
+    second: mmx_x4_x_reference_sheet_118
+  - first:
+      213: 5105878670069731593
+    second: mmx_x4_x_reference_sheet_119
+  - first:
+      213: 5593528856557435281
+    second: mmx_x4_x_reference_sheet_120
+  - first:
+      213: 3403775589029227815
+    second: mmx_x4_x_reference_sheet_121
+  - first:
+      213: 1673294237311421878
+    second: mmx_x4_x_reference_sheet_122
+  - first:
+      213: -8267754517423905590
+    second: mmx_x4_x_reference_sheet_123
+  - first:
+      213: 4209113190035925948
+    second: mmx_x4_x_reference_sheet_124
+  - first:
+      213: -3876775045260320213
+    second: mmx_x4_x_reference_sheet_125
+  - first:
+      213: -8378958186583711771
+    second: mmx_x4_x_reference_sheet_126
+  - first:
+      213: 2680748890649180973
+    second: mmx_x4_x_reference_sheet_127
+  - first:
+      213: -366421225989503034
+    second: mmx_x4_x_reference_sheet_128
+  - first:
+      213: 9185222062541641905
+    second: mmx_x4_x_reference_sheet_129
+  - first:
+      213: 1462994137162374918
+    second: mmx_x4_x_reference_sheet_130
+  - first:
+      213: -3140883747539487206
+    second: mmx_x4_x_reference_sheet_131
+  - first:
+      213: 5150472453762619775
+    second: mmx_x4_x_reference_sheet_132
+  - first:
+      213: 2235363344295277528
+    second: mmx_x4_x_reference_sheet_133
+  - first:
+      213: -3900726386941961959
+    second: mmx_x4_x_reference_sheet_134
+  - first:
+      213: 6631238081051908957
+    second: mmx_x4_x_reference_sheet_135
+  - first:
+      213: 6794916436412515043
+    second: mmx_x4_x_reference_sheet_136
+  - first:
+      213: -3092570160331947501
+    second: mmx_x4_x_reference_sheet_137
+  - first:
+      213: 8606105111771544764
+    second: mmx_x4_x_reference_sheet_138
+  - first:
+      213: -8837006709662169415
+    second: mmx_x4_x_reference_sheet_139
+  - first:
+      213: 3294824706182299086
+    second: mmx_x4_x_reference_sheet_140
+  - first:
+      213: -2273020536933612319
+    second: mmx_x4_x_reference_sheet_141
+  - first:
+      213: -8534227302447618695
+    second: mmx_x4_x_reference_sheet_142
+  - first:
+      213: 4484308948681937193
+    second: mmx_x4_x_reference_sheet_143
+  - first:
+      213: -5656395102078276437
+    second: mmx_x4_x_reference_sheet_144
+  - first:
+      213: 1628403349751283263
+    second: mmx_x4_x_reference_sheet_145
+  - first:
+      213: -5960290412698176948
+    second: mmx_x4_x_reference_sheet_146
+  - first:
+      213: 205819514224185936
+    second: mmx_x4_x_reference_sheet_147
+  - first:
+      213: -1541618199482647746
+    second: mmx_x4_x_reference_sheet_148
+  - first:
+      213: -4608525420707428965
+    second: mmx_x4_x_reference_sheet_149
+  - first:
+      213: -2960857342060053126
+    second: mmx_x4_x_reference_sheet_150
+  - first:
+      213: 111278279829262639
+    second: mmx_x4_x_reference_sheet_151
+  - first:
+      213: -4131650616017246482
+    second: mmx_x4_x_reference_sheet_152
+  - first:
+      213: 2210503950650628224
+    second: mmx_x4_x_reference_sheet_153
+  - first:
+      213: -3668481506020077942
+    second: mmx_x4_x_reference_sheet_154
+  - first:
+      213: 8867528456577443900
+    second: mmx_x4_x_reference_sheet_155
+  - first:
+      213: 8090615848487939638
+    second: mmx_x4_x_reference_sheet_156
+  - first:
+      213: 2551033746938641133
+    second: mmx_x4_x_reference_sheet_157
+  - first:
+      213: 5726237339106084626
+    second: mmx_x4_x_reference_sheet_158
+  - first:
+      213: -5074237547284368610
+    second: mmx_x4_x_reference_sheet_159
+  - first:
+      213: 8522903080415448572
+    second: mmx_x4_x_reference_sheet_160
+  - first:
+      213: 2283219813736127986
+    second: mmx_x4_x_reference_sheet_161
+  - first:
+      213: -3206391398888736798
+    second: mmx_x4_x_reference_sheet_162
+  - first:
+      213: 1403879816274115399
+    second: mmx_x4_x_reference_sheet_163
+  - first:
+      213: -2101392285299661166
+    second: mmx_x4_x_reference_sheet_164
+  - first:
+      213: 2193996156730520174
+    second: mmx_x4_x_reference_sheet_165
+  - first:
+      213: -6810768177944738539
+    second: mmx_x4_x_reference_sheet_166
+  - first:
+      213: 4177787634746225348
+    second: mmx_x4_x_reference_sheet_167
+  - first:
+      213: -805796724507531283
+    second: mmx_x4_x_reference_sheet_168
+  - first:
+      213: 5998917687726024571
+    second: mmx_x4_x_reference_sheet_169
+  - first:
+      213: -6047410673141627473
+    second: mmx_x4_x_reference_sheet_170
+  - first:
+      213: 2455417638738834679
+    second: mmx_x4_x_reference_sheet_171
+  - first:
+      213: -8272172581108136314
+    second: mmx_x4_x_reference_sheet_172
+  - first:
+      213: 2790002932480825605
+    second: mmx_x4_x_reference_sheet_173
+  - first:
+      213: 9193222865090670932
+    second: mmx_x4_x_reference_sheet_174
+  - first:
+      213: 396075304307759990
+    second: mmx_x4_x_reference_sheet_175
+  - first:
+      213: 3626491881497015709
+    second: mmx_x4_x_reference_sheet_176
+  - first:
+      213: -6800946900175495819
+    second: mmx_x4_x_reference_sheet_177
+  - first:
+      213: -493136987642089320
+    second: mmx_x4_x_reference_sheet_178
+  - first:
+      213: -4265869153799287214
+    second: mmx_x4_x_reference_sheet_179
+  - first:
+      213: -8460855588482601668
+    second: mmx_x4_x_reference_sheet_180
+  - first:
+      213: -3454360303574862505
+    second: mmx_x4_x_reference_sheet_181
+  - first:
+      213: 2660527800908609706
+    second: mmx_x4_x_reference_sheet_182
+  - first:
+      213: 8676011065866526287
+    second: mmx_x4_x_reference_sheet_183
+  - first:
+      213: -2510175116832705103
+    second: mmx_x4_x_reference_sheet_184
+  - first:
+      213: -1711681969905301909
+    second: mmx_x4_x_reference_sheet_185
+  - first:
+      213: -8287084021982257503
+    second: mmx_x4_x_reference_sheet_186
+  - first:
+      213: -7231813548330897070
+    second: mmx_x4_x_reference_sheet_187
+  - first:
+      213: -6602636923797261184
+    second: mmx_x4_x_reference_sheet_188
+  - first:
+      213: -7095308559041126691
+    second: mmx_x4_x_reference_sheet_189
+  - first:
+      213: 3936888057923807710
+    second: mmx_x4_x_reference_sheet_190
+  - first:
+      213: 1947053582368660694
+    second: mmx_x4_x_reference_sheet_191
+  - first:
+      213: -5026226648953538522
+    second: mmx_x4_x_reference_sheet_192
+  - first:
+      213: -1101078465758086883
+    second: mmx_x4_x_reference_sheet_193
+  - first:
+      213: -6140973883061180645
+    second: mmx_x4_x_reference_sheet_194
+  - first:
+      213: 4292010893509586512
+    second: mmx_x4_x_reference_sheet_195
+  - first:
+      213: -7806673908716261793
+    second: mmx_x4_x_reference_sheet_196
+  - first:
+      213: 4026784779293177729
+    second: mmx_x4_x_reference_sheet_197
+  - first:
+      213: 1255740940610271040
+    second: mmx_x4_x_reference_sheet_198
+  - first:
+      213: -8360683493570013392
+    second: mmx_x4_x_reference_sheet_199
+  - first:
+      213: 6566265894138547347
+    second: mmx_x4_x_reference_sheet_200
+  - first:
+      213: 253865038946494432
+    second: mmx_x4_x_reference_sheet_201
+  - first:
+      213: -2204848768954797307
+    second: mmx_x4_x_reference_sheet_202
+  - first:
+      213: -6588913169180661904
+    second: mmx_x4_x_reference_sheet_203
+  - first:
+      213: -6206150126920785992
+    second: mmx_x4_x_reference_sheet_204
+  - first:
+      213: 5660203171976388214
+    second: mmx_x4_x_reference_sheet_205
+  - first:
+      213: -8991222542553401307
+    second: mmx_x4_x_reference_sheet_206
+  - first:
+      213: 6734804126101092884
+    second: mmx_x4_x_reference_sheet_207
+  - first:
+      213: 5885876949458110745
+    second: mmx_x4_x_reference_sheet_208
+  - first:
+      213: 8449715953405007676
+    second: mmx_x4_x_reference_sheet_209
+  - first:
+      213: -1247899400413098686
+    second: mmx_x4_x_reference_sheet_210
+  - first:
+      213: 2625103121892509800
+    second: mmx_x4_x_reference_sheet_211
+  - first:
+      213: -4832234357374615902
+    second: mmx_x4_x_reference_sheet_212
+  - first:
+      213: 8775102364730430402
+    second: mmx_x4_x_reference_sheet_213
+  - first:
+      213: 6712222757936900681
+    second: mmx_x4_x_reference_sheet_214
+  - first:
+      213: -8027146519142081091
+    second: mmx_x4_x_reference_sheet_215
+  - first:
+      213: 5207212764249927991
+    second: mmx_x4_x_reference_sheet_216
+  - first:
+      213: 5840426851261510517
+    second: mmx_x4_x_reference_sheet_217
+  - first:
+      213: -3307663118703406259
+    second: mmx_x4_x_reference_sheet_218
+  - first:
+      213: 5227616869547869437
+    second: mmx_x4_x_reference_sheet_219
+  - first:
+      213: -6713142404133799676
+    second: mmx_x4_x_reference_sheet_220
+  - first:
+      213: -3825840134485277770
+    second: mmx_x4_x_reference_sheet_221
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 1375
+        width: 8
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c51b2882d6139e80800000000000000
+      internalID: -8173163805263850042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1375
+        width: 23
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83742dbad8f051bd0800000000000000
+      internalID: -2660202903744919752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 1375
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d9641c55ee9ea10800000000000000
+      internalID: 1939343166641970463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1365
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d456d970c1b63660800000000000000
+      internalID: 7365269680846951640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1361
+        width: 66
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811ba7bf59c495840800000000000000
+      internalID: 5213282250711019800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1359
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e843d9d57e585cc0800000000000000
+      internalID: -3722121231763027736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 1359
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4f1f9f5b69a7990800000000000000
+      internalID: -7387426530421246732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1365
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbef2ac7d032ce4a0800000000000000
+      internalID: -6562832016153051459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1297
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679d02b46a0daf0e0800000000000000
+      internalID: -2235244852392437386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1301
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3820a92bc908d50800000000000000
+      internalID: 6737557333448229831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 1301
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80dd358cfed7e500800000000000000
+      internalID: 425553865958346892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1301
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60e343f6468f7f80800000000000000
+      internalID: -8106613164956458898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 1295
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfcd8038898a6560800000000000000
+      internalID: 7307804563385208784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1301
+        width: 23
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7c1f4320c335270800000000000000
+      internalID: 8237994123566630898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1301
+        width: 22
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14269bd3c6a9960f0800000000000000
+      internalID: -1123196842369523135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1301
+        width: 70
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0790083fc011858c0800000000000000
+      internalID: -4010436720850892432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 1301
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1258933f0bc30bef0800000000000000
+      internalID: -94508861482236639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1301
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bf2cc2529816b70800000000000000
+      internalID: 8890537932163840881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1244
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e67e34d8c2425a0800000000000000
+      internalID: -6547058973048607091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1249
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e7014d7cdad16f0800000000000000
+      internalID: -712222092286722484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1249
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c455dc2892b091820800000000000000
+      internalID: 2889352908850943308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1249
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bfd3be54d91ce80800000000000000
+      internalID: -8160068126193616030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1249
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9826160d0400030800000000000000
+      internalID: 3458835777551763938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1189
+        width: 25
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f1098a0d18b8df0800000000000000
+      internalID: -176905027169804462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 1183
+        width: 25
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3551f6f6a429b8590800000000000000
+      internalID: -7670876691900721837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 1242
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268372962972a43d0800000000000000
+      internalID: -3221719073647282078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1239
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e088b266d2c0c36c0800000000000000
+      internalID: -4162438566469990386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1191
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3f124e992a8c750800000000000000
+      internalID: 6325484458482987972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1185
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5add5836b24093390800000000000000
+      internalID: -7838229092061815387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 1184
+        width: 29
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58eccf04ce43ac8d0800000000000000
+      internalID: -2825387626914328955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1186
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa97a844c55cda90800000000000000
+      internalID: -7287855795471410440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1185
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35b6d7432204a710800000000000000
+      internalID: 1703488909605254459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1184
+        width: 31
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 995b50e3c9a11aaf0800000000000000
+      internalID: -386998834619370087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1184
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5ae805398445850800000000000000
+      internalID: 6364791970930271686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1185
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2331bd3bdf42ef0800000000000000
+      internalID: -133703139997830429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1188
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72768f1f84c964450800000000000000
+      internalID: 6072712984666859303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1127
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067afbfb7c51921d0800000000000000
+      internalID: -3375142498077792416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 1127
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0387913d4ba6680800000000000000
+      internalID: -8760991306337472277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1127
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccac7306d22b7cc10800000000000000
+      internalID: 2073822061384944332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1127
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b228fc4e26ee27a0800000000000000
+      internalID: -6399924933912681799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1127
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b589c858359c4f0d0800000000000000
+      internalID: -3389863258943088549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1103
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d809f66ce567450800000000000000
+      internalID: 6086156152806083854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1127
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e47368bcd1f76330800000000000000
+      internalID: 3704195148824147171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1127
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f4031750a8efa30800000000000000
+      internalID: 4250986854262787932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1051
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d33587f1cbd71e0800000000000000
+      internalID: -2198394199738204788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1051
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1b39c03f9166220800000000000000
+      internalID: 2478697176592789968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1049
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c93b541e53bae5a0800000000000000
+      internalID: -6491178696251328062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1046
+        width: 58
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac802ea0fb4c4c80800000000000000
+      internalID: -8337205313084027737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 1045
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef825dd19a25df290800000000000000
+      internalID: -7855031288760817410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1044
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7016e4dd7e85151a0800000000000000
+      internalID: -6822574207615999737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 1051
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5e86d7b627fc770800000000000000
+      internalID: 8633244816683623918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 1051
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8cfbc21a4c348c0800000000000000
+      internalID: -4016150246164805431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 995
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b3ddc8cb9b2dd40800000000000000
+      internalID: 5607748705497987975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 995
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156cf3c2f28d929f0800000000000000
+      internalID: -492624987102919087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 996
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdef4490c2366d60800000000000000
+      internalID: 7883044000462007728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 997
+        width: 42
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028a28f87711af600800000000000000
+      internalID: 502733513611716640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 997
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa4a3cc97b9e3c60800000000000000
+      internalID: 7799842552071998207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 996
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952e7b48371622010800000000000000
+      internalID: 1162598802590786137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 996
+        width: 41
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4838429b0ce91d0800000000000000
+      internalID: -3342021972048247587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 996
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256b8990ae2435200800000000000000
+      internalID: 167551184093623890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 940
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d637fe446c56e1b00800000000000000
+      internalID: 801189685953000301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 941
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80abe5c9a6a6bb00800000000000000
+      internalID: 844045228278784140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 940
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae135aee88e71e80800000000000000
+      internalID: -8207836095345123668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 940
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6e80046bb483b10800000000000000
+      internalID: 1961400883850307267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 939
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b0c4e5a96f1c540800000000000000
+      internalID: 5026569801989622553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 939
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d9df87165386720800000000000000
+      internalID: 2839578257815084288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 939
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9944e91fc003e40800000000000000
+      internalID: 5634017365722438081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 939
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6ddea7e13df5320800000000000000
+      internalID: 2548988041979877074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 886
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707cf4c0ae59101c0800000000000000
+      internalID: -4539182116951308537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 885
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fb997934561b84f0800000000000000
+      internalID: -825541555695019017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 885
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c794885d4e22f10f0800000000000000
+      internalID: -1144157414098450052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 885
+        width: 59
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675ef56ba0e22de80800000000000000
+      internalID: -8155405351670258314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 885
+        width: 40
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc695b5f215f3fee0800000000000000
+      internalID: -1228368811561478453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 885
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2718c54bfe2d0a0800000000000000
+      internalID: -6858155724606704981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 885
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2e37c53c2c8e6c0800000000000000
+      internalID: -4113824115277438254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 885
+        width: 36
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fa9104b4d5880b0800000000000000
+      internalID: -5726224348422230238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 827
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3bef6d7cc45490800000000000000
+      internalID: -7758351418931856091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 827
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf3feaef79f4aaa0800000000000000
+      internalID: -6150516863283544126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 824
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09dd5717e7d92d50800000000000000
+      internalID: 6713134107101878541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 824
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dbeece4726a8720800000000000000
+      internalID: 2849197968596057356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 821
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4817def4fdd461f20800000000000000
+      internalID: 3392984990784254340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 821
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7539c8658968a3cd0800000000000000
+      internalID: -2577599847870983337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 820
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b0b54ca5b4aa640800000000000000
+      internalID: 5091965181909207900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 820
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b159d6e361391ff0800000000000000
+      internalID: -64966414475636297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 822
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e811f8bc1421e290800000000000000
+      internalID: -7862963768631682841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 823
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd6ddf87dad3b780800000000000000
+      internalID: -8668344238391595568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 824
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d966a8eb8c71bd1f0800000000000000
+      internalID: -1019194739711646051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 824
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b095f35a90588b0800000000000000
+      internalID: -5150699993491240079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 759
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa249ed49727168e0800000000000000
+      internalID: -1701953318845594966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 759
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1559bac588ec233a0800000000000000
+      internalID: -6687055411626142383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 758
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776ebb0bdc56e9470800000000000000
+      internalID: 8403265888827729527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 758
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f88f887cdae4560800000000000000
+      internalID: 7299963118522240887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 755
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8aca39dd833ea00800000000000000
+      internalID: 784533284409092261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 755
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0a946875e794130800000000000000
+      internalID: 3551508695538573474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 756
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86157aa28dfebd7a0800000000000000
+      internalID: -6351219137768369816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 756
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17dc5f9c9c7416d0800000000000000
+      internalID: -3020652437928356069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 759
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d059f5ddb6fdc7090800000000000000
+      internalID: -8035301980767283955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 759
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c07eae029e7b190800000000000000
+      internalID: -7946626689882715096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 706
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce677341f15f371f0800000000000000
+      internalID: -1048224774415223060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 706
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398f04a0ff51be440800000000000000
+      internalID: 4966087199238977683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 706
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985e5be8fe68fc900800000000000000
+      internalID: 706932029970048393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 706
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5bd080af5e45ae0800000000000000
+      internalID: -1561370308751018515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 706
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb3ae46be13acfe0800000000000000
+      internalID: -1168066266269074466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 706
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 426efa60672b854f0800000000000000
+      internalID: -839725110516521436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 707
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ae2f386735b6170800000000000000
+      internalID: 8172717717278878218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 707
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510f3f4e9b813a6f0800000000000000
+      internalID: -674668332486234091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 655
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed66ffa61f7e210f0800000000000000
+      internalID: -1147599930957797666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 655
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7472bba5ef832c30800000000000000
+      internalID: 4333465483051431034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 654
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01025a967932f1570800000000000000
+      internalID: 8439503359935062032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 654
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbb8758a553ad600800000000000000
+      internalID: 493765772053101532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 654
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b67f8b41e1f4640800000000000000
+      internalID: 5066301180166499155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 654
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05b61289f71a1b60800000000000000
+      internalID: 7717507271849587982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 654
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14fdbe02b9155cd00800000000000000
+      internalID: 992289019619172161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 654
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eca5ce1911c4c8f0800000000000000
+      internalID: -521079343233520409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 603
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c4e95c453aa2760800000000000000
+      internalID: 7433933719416491017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 603
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e94da2daec144620800000000000000
+      internalID: 2757360666740083172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 604
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d372e3ea788f97c50800000000000000
+      internalID: 6663630385298941757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 604
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934cf10b0ccf42590800000000000000
+      internalID: -7699751558377913287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 603
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62861efd16c197180800000000000000
+      internalID: -9117224763941361626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 603
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90110cb2999bbd640800000000000000
+      internalID: 5105878670069731593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_120
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 603
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199b008fbd430ad40800000000000000
+      internalID: 5593528856557435281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_121
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 603
+        width: 55
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dab3f3dd3ac3f20800000000000000
+      internalID: 3403775589029227815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_122
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 551
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdc7ab4e3cb83710800000000000000
+      internalID: 1673294237311421878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_123
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 551
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac421d22219034d80800000000000000
+      internalID: -8267754517423905590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_124
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 551
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbba08f3526c96a30800000000000000
+      internalID: 4209113190035925948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_125
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 551
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22e829e2ade23ac0800000000000000
+      internalID: -3876775045260320213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_126
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 551
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef93d44ce5f7bb80800000000000000
+      internalID: -8378958186583711771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_127
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 551
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2bba2fa9eee33520800000000000000
+      internalID: 2680748890649180973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_128
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 551
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c78bba16d53aeaf0800000000000000
+      internalID: -366421225989503034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_129
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 551
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b810ececc6787f70800000000000000
+      internalID: 9185222062541641905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_130
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 500
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60fda0e9a699d4410800000000000000
+      internalID: 1462994137162374918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_131
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 500
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a167c1b6fd65964d0800000000000000
+      internalID: -3140883747539487206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_132
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 499
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7994f788672a7740800000000000000
+      internalID: 5150472453762619775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_133
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 499
+        width: 58
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d336a04e1b950f10800000000000000
+      internalID: 2235363344295277528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_134
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 499
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919d45c9406ddd9c0800000000000000
+      internalID: -3900726386941961959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_135
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 499
+        width: 64
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b5422a6e3e60c50800000000000000
+      internalID: 6631238081051908957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_136
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 499
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2c4d67f746c4e50800000000000000
+      internalID: 6794916436412515043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_137
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 499
+        width: 68
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312017603dbf415d0800000000000000
+      internalID: -3092570160331947501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_138
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 441
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbcf0d680070f6770800000000000000
+      internalID: 8606105111771544764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_139
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 441
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6c7d0d735ac5580800000000000000
+      internalID: -8837006709662169415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_140
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 441
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3d211d9199bd20800000000000000
+      internalID: 3294824706182299086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_141
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 441
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e487e85ddb9470e0800000000000000
+      internalID: -2273020536933612319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_142
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 441
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9756b251c75509980800000000000000
+      internalID: -8534227302447618695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_143
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 441
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921da4dda377b3e30800000000000000
+      internalID: 4484308948681937193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_144
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 441
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac6d5f9f927081b0800000000000000
+      internalID: -5656395102078276437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_145
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 441
+        width: 50
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e3bfc0830499610800000000000000
+      internalID: 1628403349751283263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_146
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 378
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4275f8d27bc84da0800000000000000
+      internalID: -5960290412698176948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_147
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 372
+        width: 36
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0521d29f1c73bd200800000000000000
+      internalID: 205819514224185936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_148
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 374
+        width: 36
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b3f885a621b9ae0800000000000000
+      internalID: -1541618199482647746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_149
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 373
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9540600c8a3b00c0800000000000000
+      internalID: -4608525420707428965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_150
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 373
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d37e74febe8e6d0800000000000000
+      internalID: -2960857342060053126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_151
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 372
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21907481075b8100800000000000000
+      internalID: 111278279829262639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_152
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 375
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6a448b7ad69a6c0800000000000000
+      internalID: -4131650616017246482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_153
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 375
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 088d021a1a94dae10800000000000000
+      internalID: 2210503950650628224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_154
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 369
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e4598b18fe61dc0800000000000000
+      internalID: -3668481506020077942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_155
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 371
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3867f9262acf0b70800000000000000
+      internalID: 8867528456577443900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_156
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 306
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ee44f8f34a74070800000000000000
+      internalID: 8090615848487939638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_157
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 306
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deabf484da7176320800000000000000
+      internalID: 2551033746938641133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_158
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 306
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2170ff0658ea77f40800000000000000
+      internalID: 5726237339106084626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_159
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 307
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e137a20d5dfa499b0800000000000000
+      internalID: -5074237547284368610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_160
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 308
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdce33023f674670800000000000000
+      internalID: 8522903080415448572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_161
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 307
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd10e5d250afaf10800000000000000
+      internalID: 2283219813736127986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_162
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 307
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e77e5ac20c9083d0800000000000000
+      internalID: -3206391398888736798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_163
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 266
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bfb5c31459b7310800000000000000
+      internalID: 1403879816274115399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_164
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 307
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296a7f4a9da56d2e0800000000000000
+      internalID: -2101392285299661166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_165
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 224
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62be7851e3a27e10800000000000000
+      internalID: 2193996156730520174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_166
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 231
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515c11a5d6a4b71a0800000000000000
+      internalID: -6810768177944738539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_167
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 224
+        width: 30
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2711c08bb7af930800000000000000
+      internalID: 4177787634746225348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_168
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 225
+        width: 26
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de72e8af52c31d4f0800000000000000
+      internalID: -805796724507531283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_169
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 233
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77a7b57adf604350800000000000000
+      internalID: 5998917687726024571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_170
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 236
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5cc788808431ca0800000000000000
+      internalID: -6047410673141627473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_171
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 231
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4b1444555631220800000000000000
+      internalID: 2455417638738834679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_172
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 230
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686c2568dd6533d80800000000000000
+      internalID: -8272172581108136314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_173
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 234
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50951d092e418b620800000000000000
+      internalID: 2790002932480825605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_174
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 239
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4517abeec73e49f70800000000000000
+      internalID: 9193222865090670932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_175
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 259
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b919904642f7500800000000000000
+      internalID: 396075304307759990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_176
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 246
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95b779f623e35230800000000000000
+      internalID: 3626491881497015709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_177
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 244
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ddeb6c3de2e91a0800000000000000
+      internalID: -6800946900175495819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_178
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 245
+        width: 38
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890bcf1c5860829f0800000000000000
+      internalID: -493136987642089320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_179
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 165
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e4f7d2b969cc4c0800000000000000
+      internalID: -4265869153799287214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_180
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 210
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dad987ba0059a80800000000000000
+      internalID: -8460855588482601668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_181
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 165
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755b53b1b95af00d0800000000000000
+      internalID: -3454360303574862505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_182
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 165
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8753850f71ce420800000000000000
+      internalID: 2660527800908609706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_183
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 161
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e1550d812676870800000000000000
+      internalID: 8676011065866526287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_184
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 166
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5792dd7011a2dd0800000000000000
+      internalID: -2510175116832705103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_185
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 166
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b668a573152ee38e0800000000000000
+      internalID: -1711681969905301909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_186
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 166
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae9ee52dfc5efc80800000000000000
+      internalID: -8287084021982257503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_187
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 166
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25131e1c4ef63ab90800000000000000
+      internalID: -7231813548330897070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_188
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 166
+        width: 35
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084bf2833b8be54a0800000000000000
+      internalID: -6602636923797261184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_189
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 166
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde90964576688d90800000000000000
+      internalID: -7095308559041126691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_190
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 102
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed9a60584d2a2a630800000000000000
+      internalID: 3936888057923807710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_191
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 101
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc5cbfcae2550b10800000000000000
+      internalID: 1947053582368660694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_192
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 99
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628b58c2e714f3ab0800000000000000
+      internalID: -5026226648953538522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_193
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 141
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1938aa18fe28b0f0800000000000000
+      internalID: -1101078465758086883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_194
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 151
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17ef252ac0e6caa0800000000000000
+      internalID: -6140973883061180645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_195
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 101
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05eeeb7ea29409b30800000000000000
+      internalID: 4292010893509586512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_196
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 144
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e28a9017f19a390800000000000000
+      internalID: -7806673908716261793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_197
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 106
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18738b40c6302e730800000000000000
+      internalID: 4026784779293177729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_198
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 126
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0477df67bb94d6110800000000000000
+      internalID: 1255740940610271040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_199
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 136
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037994ec8a2e8fb80800000000000000
+      internalID: -8360683493570013392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_200
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 115
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c04e88a00102b50800000000000000
+      internalID: 6566265894138547347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_201
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 100
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7eb4b68e8e58300800000000000000
+      internalID: 253865038946494432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_202
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 79
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503fdf6f9bdc661e0800000000000000
+      internalID: -2204848768954797307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_203
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 74
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077e717d16a7f84a0800000000000000
+      internalID: -6588913169180661904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_204
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 19
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf142657535fd9a0800000000000000
+      internalID: -6206150126920785992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_205
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 87
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e113ebbc41d8e40800000000000000
+      internalID: 5660203171976388214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_206
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 22
+        width: 8
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 528be9e2cb2c83380800000000000000
+      internalID: -8991222542553401307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_207
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 20
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a37109ba4d67d50800000000000000
+      internalID: 6734804126101092884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_208
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 66
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9194c1c96e5dea150800000000000000
+      internalID: 5885876949458110745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_209
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 13
+        width: 46
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3718af14eb634570800000000000000
+      internalID: 8449715953405007676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_210
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 71
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d44f26b129eaee0800000000000000
+      internalID: -1247899400413098686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_211
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 21
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8680c27816d3e6420800000000000000
+      internalID: 2625103121892509800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_212
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 35
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ae7f39447470fcb0800000000000000
+      internalID: -4832234357374615902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_213
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 21
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c39275bb1d67c970800000000000000
+      internalID: 8775102364730430402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_214
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 19
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a2f14190b962d50800000000000000
+      internalID: 6712222757936900681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_215
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 15
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdd58e35c8d99090800000000000000
+      internalID: -8027146519142081091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_216
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 38
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7313ffa8b6cb34840800000000000000
+      internalID: 5207212764249927991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_217
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 60
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573781ef64d5d0150800000000000000
+      internalID: 5840426851261510517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_218
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 43
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43d5051be1d812d0800000000000000
+      internalID: -3307663118703406259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_219
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 30
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df48d3388d93c8840800000000000000
+      internalID: 5227616869547869437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_220
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 41
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4093efa1d8026d2a0800000000000000
+      internalID: -6713142404133799676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx_x4_x_reference_sheet_221
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 47
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b38298faa2e7eac0800000000000000
+      internalID: -3825840134485277770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
