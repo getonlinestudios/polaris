@@ -1,12 +1,5 @@
 {
   "dependencies": {
-    "com.getonlinestudios.raycast-controller-2d": {
-      "version": "git@github.com:getonlinestudios/raycast-controller-2d.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "a6e0f86e6213fd698ea9b8be36b698b1fbbfeede"
-    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 1,
