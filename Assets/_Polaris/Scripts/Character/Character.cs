@@ -1,6 +1,6 @@
 using Polaris.Character.Components;
 using Polaris.Input;
-using RaycastControllerCore;
+using Polaris.Physics;
 using UnityEngine;
 
 namespace Polaris.Character
@@ -12,20 +12,27 @@ namespace Polaris.Character
     {
         [SerializeField] private Animator animator;
         [SerializeField] private Stats stats;
+        [SerializeField] private float gravity = 0.5f;
 
-        private Controller2D _controller;
         private InputController _input;
+        private CharacterMovement _movement;
+        private RaycastController _rc;
+        private Vector2 _v;
+        private float _g;
 
         private void Start()
         {
-            _controller = GetComponent<Controller2D>();
             _input = GetComponent<InputController>();
+            _movement = GetComponent<CharacterMovement>();
+            _rc = GetComponent<RaycastController>();
+            _v = Vector2.zero;
+            _g = -gravity;
         }
 
         private void Update()
         {
             var directionX = _input.MoveDirection.x;
-            _controller.Move(new Vector2(directionX * stats.Speed, 0) * Time.deltaTime);
+            _v.x = directionX * stats.Speed;
 
             if (directionX != 0)
             {
@@ -33,8 +40,16 @@ namespace Polaris.Character
                 transform.localScale = new Vector3(dir, 1, 1);
             }
 
+            _v.y += _g * Time.deltaTime;
+            _movement.SetVelocity(_v);
+
             animator.SetBool("Idle", directionX == 0);
             animator.SetBool("Run", directionX != 0);
+
+            if (_rc.CollisionInfo.Above || _rc.CollisionInfo.Below)
+            {
+                _movement.SetVelocityY(0);
+            }
         }
     }
 }
