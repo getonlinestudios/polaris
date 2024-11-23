@@ -1,4 +1,4 @@
-using System;
+using Polaris.Input;
 using RaycastControllerCore;
 using UnityEngine;
 
@@ -9,19 +9,20 @@ namespace Polaris
     public class Character : MonoBehaviour
     {
         [SerializeField] private float speed = 4f;
+        [SerializeField] private Animator animator;
 
         private Controller2D _controller;
-        private Animator _animator;
+        private InputController _input;
 
         private void Start()
         {
             _controller = GetComponent<Controller2D>();
-            _animator = GetComponent<Animator>();
+            _input = GetComponent<InputController>();
         }
 
         private void Update()
         {
-            var directionX = Input.GetAxisRaw("Horizontal");
+            var directionX = _input.MoveDirection.x;
             _controller.Move(new Vector2(directionX * speed, 0) * Time.deltaTime);
 
             if (directionX != 0)
@@ -30,8 +31,8 @@ namespace Polaris
                 transform.localScale = new Vector3(dir, 1, 1);
             }
 
-            _animator.SetBool("Idle", directionX == 0);
-            _animator.SetBool("Run", directionX != 0);
+            animator.SetBool("Idle", directionX == 0);
+            animator.SetBool("Run", directionX != 0);
         }
     }
 }
