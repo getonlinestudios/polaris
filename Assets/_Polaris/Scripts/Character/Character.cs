@@ -1,15 +1,17 @@
+using Polaris.Character.Components;
 using Polaris.Input;
 using RaycastControllerCore;
 using UnityEngine;
 
-namespace Polaris
+namespace Polaris.Character
 {
     // TODO: Leaving note to make this abstract.
     // Implementations: Player, Enemy, NPC
+    [AddComponentMenu("Polaris/Character/Character")]
     public class Character : MonoBehaviour
     {
-        [SerializeField] private float speed = 4f;
         [SerializeField] private Animator animator;
+        [SerializeField] private Stats stats;
 
         private Controller2D _controller;
         private InputController _input;
@@ -23,7 +25,7 @@ namespace Polaris
         private void Update()
         {
             var directionX = _input.MoveDirection.x;
-            _controller.Move(new Vector2(directionX * speed, 0) * Time.deltaTime);
+            _controller.Move(new Vector2(directionX * stats.Speed, 0) * Time.deltaTime);
 
             if (directionX != 0)
             {
