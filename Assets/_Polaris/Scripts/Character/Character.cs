@@ -12,43 +12,50 @@ namespace Polaris.Character
     {
         [SerializeField] private Animator animator;
         [SerializeField] private Stats stats;
-        [SerializeField] private float gravity = 0.5f;
 
         private InputController _input;
-        private CharacterMovement _movement;
+        private Movement _mover;
         private RaycastController _rc;
-        private Vector2 _v;
-        private float _g;
 
         private void Start()
         {
             _input = GetComponent<InputController>();
-            _movement = GetComponent<CharacterMovement>();
+            _mover = GetComponent<Movement>();
             _rc = GetComponent<RaycastController>();
-            _v = Vector2.zero;
-            _g = -gravity;
         }
 
         private void Update()
         {
             var directionX = _input.MoveDirection.x;
-            _v.x = directionX * stats.Speed;
 
             if (directionX != 0)
             {
                 var dir = Mathf.Sign(directionX);
                 transform.localScale = new Vector3(dir, 1, 1);
             }
+            
+            _mover.SetVelocityX(directionX * stats.Speed);
 
-            _v.y += _g * Time.deltaTime;
-            _movement.SetVelocity(_v);
+            if (_input.Jump && _rc.CollisionInfo.Below)
+            {
+               _mover.SetVelocityY(stats.MaxJumpVelocity);
+            }
+
+            if (!_input.Jump && !_rc.CollisionInfo.Below && _mover.CurrentVelocity.y > stats.MinJumpVelocity)
+            {
+               _mover.SetVelocityY(stats.MinJumpVelocity);
+            }
+
+            _mover.AddToVelocityY(stats.Gravity * Time.deltaTime);
+
+            _mover.Run();
 
             animator.SetBool("Idle", directionX == 0);
             animator.SetBool("Run", directionX != 0);
 
             if (_rc.CollisionInfo.Above || _rc.CollisionInfo.Below)
             {
-                _movement.SetVelocityY(0);
+                _mover.SetVelocityY(0);
             }
         }
     }

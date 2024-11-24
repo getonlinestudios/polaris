@@ -294,9 +294,9 @@ GameObject:
   m_Component:
   - component: {fileID: 465211097}
   - component: {fileID: 465211098}
-  - component: {fileID: 465211102}
   - component: {fileID: 465211103}
   - component: {fileID: 465211101}
+  - component: {fileID: 465211105}
   - component: {fileID: 465211104}
   m_Layer: 6
   m_Name: Character
@@ -314,7 +314,7 @@ Transform:
   m_GameObject: {fileID: 465211096}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.315, z: 0}
+  m_LocalPosition: {x: 0, y: -0.002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -335,7 +335,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1315525270}
   stats: {fileID: 11400000, guid: 7e85bcc0460810744af004b42bbba6c1, type: 2}
-  gravity: 0.5
 --- !u!61 &465211101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -370,7 +369,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.015144259, y: 0.4349789}
+  m_Offset: {x: -0.018586189, y: 0.69596994}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5714286, y: -0.49999997}
@@ -380,24 +379,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.18987684, y: 0.39007533}
+  m_Size: {x: 0.45, y: 0.65}
   m_EdgeRadius: 0
---- !u!114 &465211102
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 465211096}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43a45bc744084256a0a667dd60539620, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  collisionMask:
-    serializedVersion: 2
-    m_Bits: 8
-  startingFacingDirection: 1
 --- !u!114 &465211103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +407,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3ae0fce245949caa838d80c1df28cd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &465211105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd62b1d559d4e8c469140bde54905418, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 8
+  startingFacingDirection: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
