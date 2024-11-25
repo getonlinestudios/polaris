@@ -40,13 +40,11 @@ namespace Polaris.Input
         {
             if (context.phase == InputActionPhase.Performed)
             {
-                Debug.Log("Jump started!");
                 JumpEvent.Invoke();
             }
 
             if (context.phase == InputActionPhase.Canceled)
             {
-                Debug.Log("Jump canceled!");
                 JumpCanceledEvent.Invoke();
             }
         }

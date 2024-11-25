@@ -295,9 +295,10 @@ GameObject:
   - component: {fileID: 465211097}
   - component: {fileID: 465211098}
   - component: {fileID: 465211103}
-  - component: {fileID: 465211101}
   - component: {fileID: 465211105}
   - component: {fileID: 465211104}
+  - component: {fileID: 465211106}
+  - component: {fileID: 465211101}
   m_Layer: 6
   m_Name: Character
   m_TagString: Player
@@ -335,6 +336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1315525270}
   stats: {fileID: 11400000, guid: 7e85bcc0460810744af004b42bbba6c1, type: 2}
+  debug: 1
 --- !u!61 &465211101
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -423,6 +425,18 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   startingFacingDirection: 1
+--- !u!114 &465211106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465211096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ca51180377b40ee9fab1e6205c5f14c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
