@@ -336,7 +336,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 1315525270}
   stats: {fileID: 11400000, guid: 7e85bcc0460810744af004b42bbba6c1, type: 2}
-  debug: 1
+  debug: 0
 --- !u!61 &465211101
 BoxCollider2D:
   m_ObjectHideFlags: 0
