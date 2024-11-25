@@ -1,7 +1,7 @@
 ﻿using Polaris.Physics;
 using UnityEngine;
 
-namespace Polaris.Character.Components
+namespace Polaris.Characters.Components
 {
     [AddComponentMenu("Polaris/Character/Collision Sensor")]
     public class CollisionSensor : MonoBehaviour

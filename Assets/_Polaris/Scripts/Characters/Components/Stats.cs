@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Polaris.Character.Components
+namespace Polaris.Characters.Components
 {
     
     [CreateAssetMenu(fileName = "Character Stats", menuName = "Polaris/Stats/Player Stats", order = -1)]

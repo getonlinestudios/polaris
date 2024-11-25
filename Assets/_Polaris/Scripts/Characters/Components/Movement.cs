@@ -1,7 +1,7 @@
 ﻿using Polaris.Physics;
 using UnityEngine;
 
-namespace Polaris.Character.Components
+namespace Polaris.Characters.Components
 {
     [AddComponentMenu("Polaris/Character/Components/Character Movement")]
     public class Movement : MonoBehaviour
@@ -11,15 +11,9 @@ namespace Polaris.Character.Components
         private RaycastController _raycastController;
         private Vector2 _velocity;
         
-        public void Run()
+        public void ComponentUpdate()
         {
             _raycastController.Move(_velocity * Time.deltaTime);
-        }
-
-        private void Awake()
-        {
-            _raycastController = GetComponent<RaycastController>();
-            _velocity = Vector2.zero;
         }
 
         public void SetVelocityX(float value) => _velocity.x = value;
@@ -27,10 +21,17 @@ namespace Polaris.Character.Components
         public void SetVelocityY(float value) => _velocity.y = value;
 
         public void AddToVelocityY(float value) => _velocity.y += value;
+        public void SetHorizontalVelocityToZero() => _velocity.x = 0;
 
         public void SetVelocity(Vector2 value)
         {
             _velocity = value;
+        }
+        
+        private void Awake()
+        {
+            _raycastController = GetComponent<RaycastController>();
+            _velocity = Vector2.zero;
         }
     }
 }
