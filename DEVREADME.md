@@ -18,3 +18,29 @@ But I've figured something out.
 - Transition Duration: 0
 - Transition Offset: 0
 - Interruption Source: "Next State"
+
+## Jump | Fall Animations
+How jump was implemented was using a blend tree. I split up the jump frames into 8 animations. They are all played
+at different points using a threshold. Using a complicated Map function <br/>
+```
+        private static float Map(float value, float min1, float max1, float min2, float max2, bool clamp = false)
+        {
+            var v = min2 + (max2 - min2) * ((value - min1) / (max1 - min1));
+
+            return clamp ? Mathf.Clamp(v, Mathf.Min(min2, max2), Mathf.Max(min2, max2)) : v;
+        }
+
+```
+<br/>
+we are able to map the current y velocity to a point in the blend tree. This allows us to then have the same jump animations
+even if we change the jump height. Here is how the Blend Tree 1D Threshold Table looks
+| Animation    | Threshold |
+| -------- | ------- |
+| Jump_7  | 0.4    |
+| Jump_6  | 0.45    |
+| Jump_5  | 0.5    |
+| Jump_4  | 0.55    |
+| Jump_3  | 0.75    |
+| Jump_2  | 0.85    |
+| Jump_1  | 0.95    |
+| Jump_0  | 0.99    |
