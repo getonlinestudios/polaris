@@ -1,10 +1,7 @@
 {
-    "name": "GetOnlineStudios.Polaris",
-    "rootNamespace": "Polaris",
-    "references": [
-        "GUID:75469ad4d38634e559750d17036d5f7c",
-        "GUID:04e2db2b448974ae6bed99e11590a253"
-    ],
+    "name": "GetOnlineStudios.Physics",
+    "rootNamespace": "GetOnlineStudios.Physics",
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
