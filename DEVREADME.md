@@ -44,3 +44,14 @@ even if we change the jump height. Here is how the Blend Tree 1D Threshold Table
 | Jump_2  | 0.85    |
 | Jump_1  | 0.95    |
 | Jump_0  | 0.99    |
+
+## Movement Stats
+I'm keeping track of movement stats for the player character that feel good.
+
+12/01/2024
+- Speed: 1.3
+- Max Jump Height: 1.5
+- Min Jump Hiehgt: 0.2
+- Time to Apex: 0.45
+- Time to Fall: 0.40
+

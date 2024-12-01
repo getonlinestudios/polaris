@@ -1,5 +1,6 @@
 using Polaris.Characters;
 using Polaris.Characters.Components;
+using Polaris.FSM.Core;
 using UnityEngine;
 
 namespace Polaris.FSM
@@ -10,7 +11,6 @@ namespace Polaris.FSM
         
         protected Stats Stats { get; }
         protected Movement Mover { get; }
-        protected CollisionSensor Sensor { get; }
         protected Animator Animator { get; }
 
         private float _startTime;
@@ -20,7 +20,6 @@ namespace Polaris.FSM
             // todo: this will do a get component call for EVERY state.
             Stats = character.Stats;
             Mover = character.Mover;
-            Sensor = character.CollisionSensor;
             Animator = character.Animator;
         }
         

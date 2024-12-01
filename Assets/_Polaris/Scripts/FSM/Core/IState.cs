@@ -1,4 +1,4 @@
-namespace Polaris.FSM
+namespace Polaris.FSM.Core
 {
     public interface IState
     {

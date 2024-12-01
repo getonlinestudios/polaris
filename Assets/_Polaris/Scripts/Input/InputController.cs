@@ -36,7 +36,6 @@ namespace Polaris.Input
         {
             inputDirection.x = Mathf.RoundToInt(inputDirection.x);
             inputDirection.y = Mathf.RoundToInt(inputDirection.y);
-            print("Input: " + inputDirection);
             
             MoveDirection = inputDirection;
         }

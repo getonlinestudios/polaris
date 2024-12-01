@@ -1,5 +1,8 @@
 using System;
 using Polaris.Characters.Components;
+using Polaris.FSM;
+using Polaris.FSM.Core;
+using Polaris.FSM.PlayerMovementStates;
 using Polaris.Input;
 using Polaris.Physics;
 using UnityEngine;
@@ -21,62 +24,62 @@ namespace Polaris.Characters
         public CollisionSensor CollisionSensor { get; private set; }
         public Animator Animator => animator;
 
+        private StateMachine _stateMachine;
+        private Idle _idle;
+        private Run _run;
+        private Jump _jump;
+        private Fall _fall;
+
         public void OrientSprite(int direction)
         {
             if (direction == 0) return;
             var dir = Mathf.Sign(direction);
             transform.localScale = new Vector3(dir, 1, 1);
         }
+
+        private void At(IState from, IState to, IPredicate condition) =>
+            _stateMachine.AddTransition(from, to, condition);
+
+        private void Any(IState to, IPredicate condition) => _stateMachine.AddAnyTransition(to, condition);
         
         private void Awake()
         {
             Input = GetComponent<InputController>();
             Mover = GetComponent<Movement>();
             CollisionSensor = GetComponent<CollisionSensor>();
+            
+            _stateMachine = new StateMachine();
+            
+            _idle = new Idle(this);
+            _run = new Run(this);
+            _jump = new Jump(this);
+            _fall = new Fall(this);
+            
+            At(_idle, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0)); 
+            At(_idle, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
+            At(_idle, _fall, new FunctionPredicate(() => !CollisionSensor.Below()));
+            
+            At(_run, _idle, new FunctionPredicate(() => Input.MoveDirection.x == 0)); 
+            At(_run, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
+            At(_run, _fall, new FunctionPredicate(() => !CollisionSensor.Below()));
+            
+            At(_jump, _idle, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x == 0));
+            At(_jump, _run, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x != 0));
+            
+            At(_fall, _idle, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x == 0));
+            At(_fall, _run, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x != 0));
+        }
+
+        private void Start()
+        {
+            _stateMachine.SetState(_idle);
         }
 
         private void Update()
         {
-            var directionX = Input.MoveDirection.x;
-
-            if (directionX != 0)
-            {
-                var dir = Mathf.Sign(directionX);
-                transform.localScale = new Vector3(dir, 1, 1);
-            }
-            
-            Mover.SetVelocityX(directionX * stats.Speed);
-
-            if (Input.Jump && CollisionSensor.Below())
-            {
-               Mover.SetVelocityY(stats.MaxJumpVelocity);
-               animator.SetBool("Jump", true);
-            }
-
-            if (!Input.Jump && CollisionSensor.Below())
-            {
-               animator.SetBool("Jump", false);
-               animator.SetFloat("VelocityY", 0f);
-            }
-            else
-            {
-                var mappedYVelocity = Utility.Map(Mover.CurrentVelocity.y, -stats.MaxJumpVelocity, stats.MaxJumpVelocity, 0, 1, true);
-                animator.SetFloat("VelocityY", mappedYVelocity);
-            }
-            
-
-            if (!Input.Jump && !CollisionSensor.Below() && Mover.CurrentVelocity.y > stats.MinJumpVelocity && !debug)
-            {
-               Mover.SetVelocityY(stats.MinJumpVelocity);
-            }
-
-            Mover.AddToVelocityY(stats.Gravity * Time.deltaTime);
-
+            _stateMachine.Update();
             Mover.ComponentUpdate();
-
-            animator.SetBool("Idle", directionX == 0 && CollisionSensor.Below());
-            animator.SetBool("Run", directionX != 0 && CollisionSensor.Below());
-
+            
             if (CollisionSensor.Above() || CollisionSensor.Below())
             {
                 Mover.SetVelocityY(0);
