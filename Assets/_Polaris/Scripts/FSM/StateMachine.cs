@@ -8,9 +8,10 @@ namespace Polaris.FSM
 {
     public class StateMachine
     {
+        public IState Current => _current.State;
         private StateNode _current;
-        private Dictionary<Type, StateNode> _stateNodes = new();
-        private HashSet<ITransition> _anyTransitions = new();
+        private readonly Dictionary<Type, StateNode> _stateNodes = new();
+        private readonly HashSet<ITransition> _anyTransitions = new();
 
 
         public void AddTransition(IState from, IState to, IPredicate condition)

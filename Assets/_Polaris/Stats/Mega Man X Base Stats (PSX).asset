@@ -12,7 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59812a504cb44b44879e8a2a981594e0, type: 3}
   m_Name: Mega Man X Base Stats (PSX)
   m_EditorClassIdentifier: 
-  speed: 0.75
-  maxJumpHeight: 2
-  minJumpHeight: 0.25
-  timeToJumpApex: 0.4
+  speed: 1.2
+  dashSpeed: 3.2
+  groundDashDuration: 1.2
+  airDashDuration: 1
+  maxJumpHeight: 1.2
+  minJumpHeight: 0.02
+  timeToJumpApex: 0.38
+  timeToFallApex: 0.4
+  requiredGravity: 3

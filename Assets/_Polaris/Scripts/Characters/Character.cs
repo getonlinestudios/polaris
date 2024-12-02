@@ -94,7 +94,7 @@ namespace Polaris.Characters
         {
             _stateMachine.Update();
             Mover.ComponentUpdate();
-            
+
             if (CollisionSensor.Above() || CollisionSensor.Below())
             {
                 Mover.SetVelocityY(0);

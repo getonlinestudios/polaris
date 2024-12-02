@@ -37,7 +37,13 @@ namespace Polaris.Characters.Components
 
         private void OnEnable() => CalculateJumpPhysics();
 
-        private void OnValidate() => CalculateJumpPhysics();
+        private void OnValidate()
+        {
+            CalculateJumpPhysics();
+            Debug.Log($"Gravity={Gravity}");
+            Debug.Log($"MaxJump={MaxJumpVelocity}");
+            Debug.Log($"MinJump={MinJumpVelocity}");
+        }
 
         private void CalculateJumpPhysics()
         {

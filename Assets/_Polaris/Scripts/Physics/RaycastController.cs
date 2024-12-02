@@ -2,8 +2,8 @@ using UnityEngine;
 
 namespace Polaris.Physics
 {
+    [AddComponentMenu("Polaris/Physics/Raycast Controller")]
     [RequireComponent(typeof(BoxCollider2D))]
-    [AddComponentMenu("Polaris/Physics/Platform Controller")]
     public class RaycastController : RaycastObject
     {
         [SerializeField] private int startingFacingDirection;
@@ -38,12 +38,10 @@ namespace Polaris.Physics
 
             HandleHorizontalCollisions(ref deltaMove);
 
-            print($"Y before: {deltaMove.y}");
             if (deltaMove.y != 0)
             {
                 HandleVerticalCollisions(ref deltaMove);
             }
-            print($"Y after: {deltaMove.y}");
 
             transform.Translate(deltaMove);
 

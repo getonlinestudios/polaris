@@ -9,7 +9,8 @@ namespace Polaris.Input
         [SerializeField] private float inputHoldTime = 0.2f;
 
         public Vector2 MoveDirection { get; private set; }
-        public bool Jump { get; private set; } // TODO: Would it be better to set this to false after it has been read?
+        public bool Jump { get; private set; }
+        public bool JumpCanceled { get; set; }
         public bool DashPressed { get; set; }
         public bool DashHeld { get; set; }
 
@@ -46,11 +47,13 @@ namespace Polaris.Input
         private void OnJumpCanceled()
         {
             Jump = false;
+            JumpCanceled = true;
         }
 
         private void OnJump()
         {
             Jump = true;
+            JumpCanceled = false;
             _jumpInputStartTime = Time.time;
         }
 

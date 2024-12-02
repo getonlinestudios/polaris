@@ -45,7 +45,7 @@ namespace Polaris.FSM.PlayerMovementStates
             Animator.SetFloat(AnimationFloatId, mappedValue);
             
             // Character is on the way up, this is the only time we can 'cancel' the jump.
-            if (!_input.Jump && Mover.CurrentVelocity.y > Stats.MinJumpVelocity)
+            if (_input.JumpCanceled && Mover.CurrentVelocity.y > Stats.MinJumpVelocity)
             {
                Mover.SetVelocityY(Stats.MinJumpVelocity); 
             }
