@@ -3,6 +3,12 @@ using UnityEngine;
 
 namespace Polaris.Characters.Components
 {
+    public enum FacingDirection
+    {
+        Right = 1,
+        Left = -1
+    }
+    
     [AddComponentMenu("Polaris/Character/Components/Character Movement")]
     public class Movement : MonoBehaviour
     {
@@ -15,9 +21,25 @@ namespace Polaris.Characters.Components
         public void ComponentUpdate()
         {
             // Make sure that Y velocity is never higher than a certain amount.
+                // TODO: I think this should be Gravity / Fall Gravity
             _velocity.y = Mathf.Clamp(_velocity.y, -stats.MaxJumpVelocity, stats.MaxJumpVelocity);
             _raycastController.Move(_velocity * Time.deltaTime);
-            print($"Current Velocity: {_velocity.y}\nMovement delta: {Mathf.Abs(transform.position.y - _velocity.y)}");
+        }
+
+        public FacingDirection FacingDirection
+        {
+            get
+            {
+                var value = (FacingDirection)_raycastController.CollisionInfo.FacingDirection;
+                if (value == 0)
+                {
+                    Debug.LogWarning($"Facing Direction was 0 for {gameObject.name}.");
+                    return FacingDirection.Right;
+                }
+
+                return value;
+            }
+            
         }
 
         public void SetVelocityX(float value) => _velocity.x = value;

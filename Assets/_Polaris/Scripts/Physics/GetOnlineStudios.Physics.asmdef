@@ -1,6 +1,6 @@
 {
     "name": "GetOnlineStudios.Physics",
-    "rootNamespace": "GetOnlineStudios.Physics",
+    "rootNamespace": "Physics",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],

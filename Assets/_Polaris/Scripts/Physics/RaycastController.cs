@@ -38,10 +38,12 @@ namespace Polaris.Physics
 
             HandleHorizontalCollisions(ref deltaMove);
 
+            print($"Y before: {deltaMove.y}");
             if (deltaMove.y != 0)
             {
                 HandleVerticalCollisions(ref deltaMove);
             }
+            print($"Y after: {deltaMove.y}");
 
             transform.Translate(deltaMove);
 
@@ -152,6 +154,10 @@ namespace Polaris.Physics
                     }
 
                     _collisionInfo.Below = directionY == -1;
+                    if (directionY == 1)
+                    {
+                        Debug.Log("Alert");
+                    }
                     _collisionInfo.Above = directionY == 1;
                 }
             }

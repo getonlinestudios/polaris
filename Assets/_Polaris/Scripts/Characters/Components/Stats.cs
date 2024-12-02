@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Polaris.Characters.Components
 {
@@ -7,18 +8,32 @@ namespace Polaris.Characters.Components
     public class Stats : ScriptableObject
     {
         [SerializeField] private float speed = 1.2f;
+        
+        [Header("Dash")]
+        [SerializeField] private float dashSpeed = 3.2f;
+        [SerializeField] private float groundDashDuration = 1.2f;
+        [SerializeField] private float airDashDuration = 1.0f;
+        
+        [Header("Jumping")]
         [SerializeField] private float maxJumpHeight = 2f;
         [SerializeField] private float minJumpHeight = 0.5f;
         [SerializeField] private float timeToJumpApex = 0.25f;
-        // todo: is this needed? does mega man fall faster?
         [SerializeField] private float timeToFallApex = 0.20f;
         
+        [Header("Required Settings")]
+        [SerializeField] 
+        [Tooltip("This is the required gravity to be considered grounded. Note, this changes a lot of the default jump values.")]
+        private float requiredGravity = 3f;
+
 
         public float Speed => speed;
+        public float DashSpeed => dashSpeed;
         public float Gravity { get; private set; }
-        public float FallGravity { get; set; }
+        public float FallGravity { get; private set; }
         public float MaxJumpVelocity { get; private set; }
         public float MinJumpVelocity { get; private set; }
+        public float DashDuration => groundDashDuration;
+        public float RequiredGravityToBeConsideredGrounded => requiredGravity;
 
         private void OnEnable() => CalculateJumpPhysics();
 

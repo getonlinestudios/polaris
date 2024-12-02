@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace Polaris
+namespace Polaris.Utilities
 {
-    public class Utility
+    public static class Utility
     {
         /// <summary>
         /// Takes a value and turns it into a float between 0 and 1.

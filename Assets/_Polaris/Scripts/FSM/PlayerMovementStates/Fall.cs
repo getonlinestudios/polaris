@@ -1,5 +1,6 @@
 using Polaris.Characters;
 using Polaris.Input;
+using Polaris.Utilities;
 using UnityEngine;
 
 namespace Polaris.FSM.PlayerMovementStates
@@ -28,7 +29,7 @@ namespace Polaris.FSM.PlayerMovementStates
         public override void Execute()
         {
             base.Execute();
-            Mover.ApplyGravity(Stats.FallGravity);
+            Mover.ApplyGravity(Stats.Gravity);
             
             var mappedValue = Utility.Map(
                 Mover.CurrentVelocity.y, 

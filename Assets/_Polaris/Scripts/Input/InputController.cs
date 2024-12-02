@@ -9,9 +9,12 @@ namespace Polaris.Input
         [SerializeField] private float inputHoldTime = 0.2f;
 
         public Vector2 MoveDirection { get; private set; }
-        public bool Jump { get; private set; }
-        
+        public bool Jump { get; private set; } // TODO: Would it be better to set this to false after it has been read?
+        public bool DashPressed { get; set; }
+        public bool DashHeld { get; set; }
+
         private float _jumpInputStartTime;
+        private float _dashInputStartTime;
 
         private void ClearJumpInput()
         {
@@ -19,6 +22,25 @@ namespace Polaris.Input
             {
                 Jump = false;
             }
+        }
+        
+        private void ClearDashInput()
+        {
+            if (Time.time >= _dashInputStartTime + inputHoldTime)
+            {
+                DashPressed = false;
+            }
+        }
+
+        private void OnDashPressed()
+        {
+            DashPressed = true;
+            _dashInputStartTime = Time.time;
+        }
+
+        private void OnDashHeld(bool input)
+        {
+            DashHeld = input;
         }
         
         private void OnJumpCanceled()
@@ -53,6 +75,8 @@ namespace Polaris.Input
             inputReader.MoveEvent += OnMove;
             inputReader.JumpEvent += OnJump;
             inputReader.JumpCanceledEvent += OnJumpCanceled;
+            inputReader.DashPressedEvent += OnDashPressed;
+            inputReader.DashHeldEvent += OnDashHeld;
         }
 
         private void OnDisable()
@@ -66,11 +90,14 @@ namespace Polaris.Input
             inputReader.MoveEvent -= OnMove;
             inputReader.JumpEvent -= OnJump;
             inputReader.JumpCanceledEvent -= OnJumpCanceled;
+            inputReader.DashPressedEvent -= OnDashPressed;
+            inputReader.DashHeldEvent -= OnDashHeld;
         }
 
         private void Update()
         {
             ClearJumpInput();
+            ClearDashInput();
         }
     }
 }

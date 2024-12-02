@@ -21,7 +21,7 @@ namespace Polaris.FSM.PlayerMovementStates
         public override void Execute()
         {
             base.Execute();
-            Mover.ApplyGravity(-0.001f);
+            Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
         }
 
         public override void OnExit()

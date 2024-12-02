@@ -1,5 +1,6 @@
 using Polaris.Characters;
 using Polaris.Input;
+using Polaris.Utilities;
 using UnityEngine;
 
 namespace Polaris.FSM.PlayerMovementStates

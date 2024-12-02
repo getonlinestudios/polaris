@@ -1,17 +1,19 @@
 using Polaris.Characters;
+using Polaris.Characters.Components;
 using Polaris.Input;
+using Polaris.Utilities;
 using UnityEngine;
 
 namespace Polaris.FSM.PlayerMovementStates
 {
-    public class Run : CharacterState
+    public class GroundDash : CharacterState
     {
-        private static readonly int AnimationId = Animator.StringToHash("Run");
+        private static readonly int AnimationId = Animator.StringToHash("Dash");
 
         private readonly InputController _input;
         private readonly Character _character;
 
-        public Run(Character character) : base(character)
+        public GroundDash(Character character) : base(character)
         {
             _input = character.Input;
             _character = character;
@@ -26,7 +28,7 @@ namespace Polaris.FSM.PlayerMovementStates
         public override void Execute()
         {
             base.Execute();
-            Mover.SetVelocityX(_input.MoveDirection.x * Stats.Speed);
+            Mover.SetVelocityX(Mover.FacingDirection.AsValue() * Stats.DashSpeed);
             _character.OrientSprite((int)_input.MoveDirection.x);
             Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
         }

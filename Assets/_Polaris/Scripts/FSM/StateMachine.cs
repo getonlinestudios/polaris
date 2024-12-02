@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using Polaris.FSM.Core;
+using Polaris.FSM.PlayerMovementStates;
+using UnityEngine;
 
 namespace Polaris.FSM
 {
@@ -40,7 +42,9 @@ namespace Polaris.FSM
         {
             var transition = GetTransition();
             if (transition != null)
+            {
                 ChangeState(transition.To);
+            }
             
             _current.State.Execute();
         }
