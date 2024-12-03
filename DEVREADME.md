@@ -55,3 +55,14 @@ I'm keeping track of movement stats for the player character that feel good.
 - Time to Apex: 0.45
 - Time to Fall: 0.40
 
+## Dashing
+- Dash has initial start frames
+- It is the same as the start of the walk/run animation (the first two frames)
+    - Check Bizhawk
+- Even if the player is running the first two walk frames is immediately played
+
+## Animating
+- Just because an animation was shown to take a couple of frames in game, does not mean it actually stayed on that frame. Just animate normally.
+
+# Aseprite
+- Note, that the FPS for the animation in Unity won't update in the corner. You will know from updating the properties of the animation.

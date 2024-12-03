@@ -215,7 +215,7 @@ namespace Polaris.Input
                 {
                     ""name"": """",
                     ""id"": ""c753dee4-bcc4-4a98-ba1f-711c92860cf5"",
-                    ""path"": ""<Gamepad>/rightTrigger"",
+                    ""path"": ""<Gamepad>/rightShoulder"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": "";Gamepad"",
