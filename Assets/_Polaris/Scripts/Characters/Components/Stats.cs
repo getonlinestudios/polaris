@@ -12,13 +12,17 @@ namespace Polaris.Characters.Components
         [Header("Dash")]
         [SerializeField] private float dashSpeed = 3.2f;
         [SerializeField] private float groundDashDuration = 1.2f;
-        [SerializeField] private float airDashDuration = 1.0f;
         
         [Header("Jumping")]
         [SerializeField] private float maxJumpHeight = 2f;
         [SerializeField] private float minJumpHeight = 0.5f;
         [SerializeField] private float timeToJumpApex = 0.25f;
         [SerializeField] private float timeToFallApex = 0.20f;
+        
+        [Header("Wall Sliding")]
+        [SerializeField] private float wallSlideSpeed = 1.55f;
+        [SerializeField] private float wallJumpHorizontalSpeed = 1.55f;
+        
         
         [Header("Required Settings")]
         [SerializeField] 
@@ -28,12 +32,14 @@ namespace Polaris.Characters.Components
 
         public float Speed => speed;
         public float DashSpeed => dashSpeed;
+        public float WallSlideSpeed => wallSlideSpeed;
         public float Gravity { get; private set; }
         public float FallGravity { get; private set; }
         public float MaxJumpVelocity { get; private set; }
         public float MinJumpVelocity { get; private set; }
         public float DashDuration => groundDashDuration;
         public float RequiredGravityToBeConsideredGrounded => requiredGravity;
+        public float WallJumpHorizontalSpeed => wallJumpHorizontalSpeed;
 
         private void OnEnable() => CalculateJumpPhysics();
 

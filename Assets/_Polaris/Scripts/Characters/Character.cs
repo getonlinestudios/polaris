@@ -33,6 +33,7 @@ namespace Polaris.Characters
         private Fall _fall;
         private GroundDash _groundDash;
         private GroundDashEnd _groundDashEnd;
+        private WallSlide _wallSlide;
 
         public void OrientSprite(int direction)
         {
@@ -60,6 +61,7 @@ namespace Polaris.Characters
             _fall = new Fall(this);
             _groundDash = new GroundDash(this);
             _groundDashEnd = new GroundDashEnd(this);
+            _wallSlide = new WallSlide(this);
             
             At(_idle, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0)); 
             At(_idle, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
@@ -73,9 +75,13 @@ namespace Polaris.Characters
             
             At(_jump, _idle, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x == 0));
             At(_jump, _run, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x != 0));
+            At(_jump, _wallSlide, new FunctionPredicate(() => (CollisionSensor.Right() && Input.MoveDirection.x == 1) 
+                                                              || (CollisionSensor.Left() && Input.MoveDirection.x == -1)));
             
             At(_fall, _idle, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x == 0));
             At(_fall, _run, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x != 0));
+            At(_fall, _wallSlide, new FunctionPredicate(() => (CollisionSensor.Right() && Input.MoveDirection.x == 1) 
+                                                              || (CollisionSensor.Left() && Input.MoveDirection.x == -1)));
             
             
             At(_groundDash, _run, new FunctionPredicate(() => _groundDash.Duration > stats.DashDuration && Input.MoveDirection.x != 0));
@@ -102,6 +108,8 @@ namespace Polaris.Characters
             At(_groundDashEnd, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0));
             At(_groundDashEnd, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
             At(_groundDashEnd, _jump, new FunctionPredicate(() => !CollisionSensor.Below()));
+            
+            At(_wallSlide, _idle, new FunctionPredicate(() => CollisionSensor.Below()));
         }
 
         private void Start()

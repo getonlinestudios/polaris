@@ -1,8 +1,6 @@
 using System;
 using System.Collections.Generic;
 using Polaris.FSM.Core;
-using Polaris.FSM.PlayerMovementStates;
-using UnityEngine;
 
 namespace Polaris.FSM
 {

@@ -10,10 +10,13 @@ namespace Polaris.Characters.Components
 
         public bool Below() => _raycastController.CollisionInfo.Below;
         public bool Above() => _raycastController.CollisionInfo.Above;
+        public bool Right() => _raycastController.CollisionInfo.Right;
+        public bool Left() => _raycastController.CollisionInfo.Left;
         
         private void Awake()
         {
             _raycastController = GetComponent<RaycastController>();
         }
+
     }
 }

@@ -15,9 +15,10 @@ MonoBehaviour:
   speed: 1.2
   dashSpeed: 3.2
   groundDashDuration: 0.7
-  airDashDuration: 1
   maxJumpHeight: 1.2
   minJumpHeight: 0.02
   timeToJumpApex: 0.38
   timeToFallApex: 0.4
+  wallSlideSpeed: 0.75
+  wallJumpHorizontalSpeed: 1.55
   requiredGravity: 3

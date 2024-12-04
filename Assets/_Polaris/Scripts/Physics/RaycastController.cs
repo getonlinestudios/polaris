@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Polaris.Physics
@@ -15,6 +16,12 @@ namespace Polaris.Physics
         private CollisionInfo _collisionInfo;
         private Vector2 _playerInput;
         public CollisionInfo CollisionInfo => _collisionInfo;
+
+        public bool IsGrounded()
+        {
+            // check rays below some distance
+            throw new NotImplementedException("RaycastController.IsGrounded has not been implemented!");
+        }
 
         public void Move(Vector2 deltaMove, bool isStandingOnPlatform = false) =>
             Move(deltaMove, Vector2.zero, isStandingOnPlatform);
@@ -38,6 +45,8 @@ namespace Polaris.Physics
 
             HandleHorizontalCollisions(ref deltaMove);
 
+            // todo: can change this to say if it is 0, or less than some amount check anyways.
+            // todo: OR just provide a method that checks instead of reporting when moving.
             if (deltaMove.y != 0)
             {
                 HandleVerticalCollisions(ref deltaMove);
