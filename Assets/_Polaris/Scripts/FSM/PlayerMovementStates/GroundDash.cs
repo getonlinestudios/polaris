@@ -39,4 +39,35 @@ namespace Polaris.FSM.PlayerMovementStates
             Animator.SetBool(AnimationId, false);
         }
     }
+    
+    public class GroundDashEnd : CharacterState
+    {
+        private static readonly int AnimationId = Animator.StringToHash("GroundDashEnd");
+
+        private readonly InputController _input;
+        private readonly Character _character;
+
+        public GroundDashEnd(Character character) : base(character)
+        {
+        }
+        
+        public override void OnEnter()
+        {
+            base.OnEnter();
+            Animator.SetBool(AnimationId, true);
+        }
+        
+        public override void Execute()
+        {
+            base.Execute();
+            Mover.SetVelocityX(0);
+            Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
+        }
+
+        public override void OnExit()
+        {
+            base.OnExit();
+            Animator.SetBool(AnimationId, false);
+        }
+    }
 }

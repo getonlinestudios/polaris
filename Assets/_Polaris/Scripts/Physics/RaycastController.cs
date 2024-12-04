@@ -152,10 +152,6 @@ namespace Polaris.Physics
                     }
 
                     _collisionInfo.Below = directionY == -1;
-                    if (directionY == 1)
-                    {
-                        Debug.Log("Alert");
-                    }
                     _collisionInfo.Above = directionY == 1;
                 }
             }

@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using Polaris.Characters.Components;
 using Polaris.FSM;
 using Polaris.FSM.Core;
@@ -31,6 +32,7 @@ namespace Polaris.Characters
         private Jump _jump;
         private Fall _fall;
         private GroundDash _groundDash;
+        private GroundDashEnd _groundDashEnd;
 
         public void OrientSprite(int direction)
         {
@@ -57,6 +59,7 @@ namespace Polaris.Characters
             _jump = new Jump(this);
             _fall = new Fall(this);
             _groundDash = new GroundDash(this);
+            _groundDashEnd = new GroundDashEnd(this);
             
             At(_idle, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0)); 
             At(_idle, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
@@ -74,8 +77,6 @@ namespace Polaris.Characters
             At(_fall, _idle, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x == 0));
             At(_fall, _run, new FunctionPredicate(() => CollisionSensor.Below() && Input.MoveDirection.x != 0));
             
-            At(_groundDash, _idle, new FunctionPredicate(() => _groundDash.Duration > stats.DashDuration && Input.MoveDirection.x == 0));
-            At(_groundDash, _idle, new FunctionPredicate(() => !Input.DashHeld && Input.MoveDirection.x == 0));
             
             At(_groundDash, _run, new FunctionPredicate(() => _groundDash.Duration > stats.DashDuration && Input.MoveDirection.x != 0));
             At(_groundDash, _run,
@@ -83,15 +84,35 @@ namespace Polaris.Characters
             At(_groundDash, _run,
                 new FunctionPredicate(() => (Input.MoveDirection.x == 1f && Mover.FacingDirection.AsValue() == -1) 
                                             || (Input.MoveDirection.x == -1f && Mover.FacingDirection.AsValue() == 1)));
+            
+            At(_groundDash, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
+            
+            At(_groundDash, _groundDashEnd, new FunctionPredicate(() => _groundDash.Duration > stats.DashDuration && Input.MoveDirection.x == 0));
+            At(_groundDash, _groundDashEnd, new FunctionPredicate(() => !Input.DashHeld && Input.MoveDirection.x == 0));
+
+            // todo: the value 0.25f is the length of the animation
+            // retrieved like this
+            // var clips = Animator.runtimeAnimatorController.animationClips;
+            // foreach (var clip in clips)
+            // {
+            //     // look for Ground Dash End
+            //     Debug.Log($"Name: {clip.name}, time {clip.length}");
+            // }
+            At(_groundDashEnd, _idle, new FunctionPredicate(() => _groundDashEnd.Duration > .25f));
+            At(_groundDashEnd, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0));
+            At(_groundDashEnd, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
+            At(_groundDashEnd, _jump, new FunctionPredicate(() => !CollisionSensor.Below()));
         }
 
         private void Start()
         {
+            // todo: move to Mover
             _stateMachine.SetState(_idle);
         }
 
         private void Update()
         {
+            // todo: move to Mover
             _stateMachine.Update();
             Mover.ComponentUpdate();
 
