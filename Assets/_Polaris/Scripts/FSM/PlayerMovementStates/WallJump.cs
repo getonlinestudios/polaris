@@ -55,7 +55,7 @@ namespace Polaris.FSM.PlayerMovementStates
                 return;
             }
             
-            Mover.SetVelocityX(_input.MoveDirection.x * Stats.Speed);
+            Mover.SetVelocityX(_input.HorizontalInput * Stats.Speed);
         }
 
         public override void OnExit()

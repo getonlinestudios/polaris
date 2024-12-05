@@ -26,8 +26,8 @@ namespace Polaris.FSM.PlayerMovementStates
         public override void Execute()
         {
             base.Execute();
-            Mover.SetVelocityX(_input.MoveDirection.x * Stats.Speed);
-            _character.OrientSprite((int)_input.MoveDirection.x);
+            Mover.SetVelocityX(_input.HorizontalInput * Stats.Speed);
+            _character.OrientSprite(_input.HorizontalInput);
             Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
         }
 

@@ -28,8 +28,8 @@ namespace Polaris.FSM.PlayerMovementStates
         public override void Execute()
         {
             base.Execute();
-            Mover.SetVelocityX(Mover.FacingDirection.AsValue() * Stats.DashSpeed);
-            _character.OrientSprite((int)_input.MoveDirection.x);
+            Mover.SetVelocityX(Mover.FacingDirection * Stats.DashSpeed);
+            _character.OrientSprite(_input.HorizontalInput);
             Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
         }
 

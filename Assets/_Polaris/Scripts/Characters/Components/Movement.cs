@@ -3,12 +3,6 @@ using UnityEngine;
 
 namespace Polaris.Characters.Components
 {
-    public enum FacingDirection
-    {
-        Right = 1,
-        Left = -1
-    }
-    
     [AddComponentMenu("Polaris/Character/Components/Character Movement")]
     public class Movement : MonoBehaviour
     {
@@ -26,21 +20,7 @@ namespace Polaris.Characters.Components
             _raycastController.Move(_velocity * Time.deltaTime);
         }
 
-        public FacingDirection FacingDirection
-        {
-            get
-            {
-                var value = (FacingDirection)_raycastController.CollisionInfo.FacingDirection;
-                if (value == 0)
-                {
-                    Debug.LogWarning($"Facing Direction was 0 for {gameObject.name}.");
-                    return FacingDirection.Right;
-                }
-
-                return value;
-            }
-            
-        }
+        public int FacingDirection => _raycastController.CollisionInfo.FacingDirection;
 
         public void SetVelocityX(float value) => _velocity.x = value;
 

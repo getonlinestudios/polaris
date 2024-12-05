@@ -33,8 +33,8 @@ namespace Polaris.FSM.PlayerMovementStates
             Mover.ApplyGravity(Stats.Gravity);
             
             // Allow horizontal movement & flipping while airborne
-            Mover.SetVelocityX(_input.MoveDirection.x * Stats.Speed);
-            _character.OrientSprite((int)_input.MoveDirection.x);
+            Mover.SetVelocityX(_input.HorizontalInput * Stats.Speed);
+            _character.OrientSprite(_input.HorizontalInput);
             var mappedValue = Utility.Map(
                 Mover.CurrentVelocity.y, 
                 -Stats.MaxJumpVelocity, 

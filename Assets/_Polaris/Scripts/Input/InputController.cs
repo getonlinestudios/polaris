@@ -8,11 +8,12 @@ namespace Polaris.Input
         [SerializeField] private InputReader inputReader;
         [SerializeField] private float inputHoldTime = 0.2f;
 
-        public Vector2 MoveDirection { get; private set; }
+        public int HorizontalInput { get; private set; }
+        public int VerticalInput { get; private set; }
         public bool Jump { get; private set; }
-        public bool JumpCanceled { get; set; }
-        public bool DashPressed { get; set; }
-        public bool DashHeld { get; set; }
+        public bool JumpCanceled { get; private set; }
+        public bool DashPressed { get; private set; }
+        public bool DashHeld { get; private set; }
 
         private float _jumpInputStartTime;
         private float _dashInputStartTime;
@@ -59,10 +60,8 @@ namespace Polaris.Input
 
         private void OnMove(Vector2 inputDirection)
         {
-            inputDirection.x = Mathf.RoundToInt(inputDirection.x);
-            inputDirection.y = Mathf.RoundToInt(inputDirection.y);
-            
-            MoveDirection = inputDirection;
+            HorizontalInput = Mathf.RoundToInt(inputDirection.x);
+            VerticalInput = Mathf.RoundToInt(inputDirection.y);
         }
         
         private void OnEnable()
