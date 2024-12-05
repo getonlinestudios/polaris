@@ -17,7 +17,7 @@ namespace Polaris.FSM.PlayerMovementStates
         public WallJump(Character character) : base(character)
         {
             _input = character.Input;
-            _sensor = character.CollisionSensor;
+            _sensor = character.Sensor;
         }
 
         public override void OnEnter()
