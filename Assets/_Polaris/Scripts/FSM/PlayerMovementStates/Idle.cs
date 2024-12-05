@@ -16,6 +16,7 @@ namespace Polaris.FSM.PlayerMovementStates
             base.OnEnter();
             Mover.SetHorizontalVelocityToZero();
             Animator.SetBool(AnimationId, true);
+            Mover.ApplyGravity(-Stats.RequiredGravityToBeConsideredGrounded);
         }
 
         public override void Execute()

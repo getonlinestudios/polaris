@@ -55,6 +55,7 @@ namespace Polaris.Characters.Components
         /// <param name="gravityValue">Value of gravity.</param>
         public void ApplyGravity(float gravityValue) => _velocity.y += gravityValue * Time.deltaTime;
         public void SetHorizontalVelocityToZero() => _velocity.x = 0;
+        public void SetVerticalVelocityToZero() => _velocity.y = 0;
 
         public void SetVelocity(Vector2 value)
         {

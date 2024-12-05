@@ -18,6 +18,7 @@ namespace Polaris.FSM.PlayerMovementStates
         {
             base.OnEnter();
             Animator.SetBool(AnimationId, true);
+            Mover.SetVerticalVelocityToZero();
         }
 
         public override void Execute()

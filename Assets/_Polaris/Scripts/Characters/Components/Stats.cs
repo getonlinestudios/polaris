@@ -8,6 +8,9 @@ namespace Polaris.Characters.Components
     public class Stats : ScriptableObject
     {
         [SerializeField] private float speed = 1.2f;
+        // todo: to do dash jumping speed we can inject the inputController just an idea
+        // create an airSpeed value
+        // get => AirSpeed = Input.DashHeld ? airSpeedDash : speed;
         
         [Header("Dash")]
         [SerializeField] private float dashSpeed = 3.2f;
@@ -22,6 +25,7 @@ namespace Polaris.Characters.Components
         [Header("Wall Sliding")]
         [SerializeField] private float wallSlideSpeed = 1.55f;
         [SerializeField] private float wallJumpHorizontalSpeed = 1.55f;
+        [FormerlySerializedAs("wallJumpHorizontalNoControlDuration")] [SerializeField] private float wallJumpNoHorizontalControlDuration = 0.25f;
         
         
         [Header("Required Settings")]
@@ -40,6 +44,7 @@ namespace Polaris.Characters.Components
         public float DashDuration => groundDashDuration;
         public float RequiredGravityToBeConsideredGrounded => requiredGravity;
         public float WallJumpHorizontalSpeed => wallJumpHorizontalSpeed;
+        public float WallJumpNoHorizontalControlDuration => wallJumpNoHorizontalControlDuration;
 
         private void OnEnable() => CalculateJumpPhysics();
 

@@ -34,6 +34,7 @@ namespace Polaris.Characters
         private GroundDash _groundDash;
         private GroundDashEnd _groundDashEnd;
         private WallSlide _wallSlide;
+        private WallJump _wallJump;
 
         public void OrientSprite(int direction)
         {
@@ -62,6 +63,7 @@ namespace Polaris.Characters
             _groundDash = new GroundDash(this);
             _groundDashEnd = new GroundDashEnd(this);
             _wallSlide = new WallSlide(this);
+            _wallJump = new WallJump(this);
             
             At(_idle, _run, new FunctionPredicate(() => Input.MoveDirection.x != 0)); 
             At(_idle, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
@@ -90,9 +92,8 @@ namespace Polaris.Characters
             At(_groundDash, _run,
                 new FunctionPredicate(() => (Input.MoveDirection.x == 1f && Mover.FacingDirection.AsValue() == -1) 
                                             || (Input.MoveDirection.x == -1f && Mover.FacingDirection.AsValue() == 1)));
-            
             At(_groundDash, _jump, new FunctionPredicate(() => Input.Jump && CollisionSensor.Below()));
-            
+            At(_groundDash, _fall, new FunctionPredicate(() => !CollisionSensor.Below()));
             At(_groundDash, _groundDashEnd, new FunctionPredicate(() => _groundDash.Duration > stats.DashDuration && Input.MoveDirection.x == 0));
             At(_groundDash, _groundDashEnd, new FunctionPredicate(() => !Input.DashHeld && Input.MoveDirection.x == 0));
 
@@ -110,6 +111,19 @@ namespace Polaris.Characters
             At(_groundDashEnd, _jump, new FunctionPredicate(() => !CollisionSensor.Below()));
             
             At(_wallSlide, _idle, new FunctionPredicate(() => CollisionSensor.Below()));
+
+            // todo: should be a wall slide coyote time
+            At(_wallSlide, _fall, new FunctionPredicate(() => Input.MoveDirection.x == 0));
+            At(_wallSlide, _fall, new FunctionPredicate(() => Input.MoveDirection.x == -1f && CollisionSensor.Right()));
+            At(_wallSlide, _fall, new FunctionPredicate(() => Input.MoveDirection.x == 1f && CollisionSensor.Left()));
+            // Wall is no longer detected.
+            At(_wallSlide, _fall, new FunctionPredicate(() => Input.MoveDirection.x == -1f && !CollisionSensor.Left()));
+            At(_wallSlide, _fall, new FunctionPredicate(() => Input.MoveDirection.x == 1f && !CollisionSensor.Right()));
+            At(_wallSlide, _wallJump, new FunctionPredicate(() => Input.Jump));
+
+            At(_wallJump, _idle, new FunctionPredicate(() => CollisionSensor.Below()));
+            At(_wallJump, _wallSlide, new FunctionPredicate(() => (CollisionSensor.Right() && Input.MoveDirection.x == 1) 
+                                                              || (CollisionSensor.Left() && Input.MoveDirection.x == -1)));
         }
 
         private void Start()
