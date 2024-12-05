@@ -20,5 +20,6 @@ MonoBehaviour:
   timeToJumpApex: 0.38
   timeToFallApex: 0.4
   wallSlideSpeed: 0.75
-  wallJumpHorizontalSpeed: 1.55
+  wallJumpHorizontalSpeed: 0.75
+  wallJumpNoHorizontalControlDuration: 0.25
   requiredGravity: 3
